@@ -12,7 +12,7 @@
     <?php endif; ?>
     <section class="articles-section">
         <div class="articles-section__text-container">
-            <h2 class="articles-section__title">Новости и статьи</h2>
+            <h2 class="articles-section__title"><?=$title?></h2>
             <p class="articles-section__text">Мы регулярно публикуем новости и события <br>
                 из жизни компании, производства и нашего участия в проектах</p>
         </div>

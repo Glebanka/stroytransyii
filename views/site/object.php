@@ -35,8 +35,8 @@ $this->title = 'Стройтрансметал';
             </div>
 
             <div class="offer__buttons">
-                <button class="btn">Заказать</button>
-                <button class="btn bordered">Получить прайс-лист</button>
+                <button class="btn offer__btn">Заказать</button>
+                <button class="btn bordered offer__btn"><span>Получить прайс-лист</span></button>
             </div>
         </div>
     </div>

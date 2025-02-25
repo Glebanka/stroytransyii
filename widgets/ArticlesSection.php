@@ -6,6 +6,7 @@ use yii\base\Widget;
 
 class ArticlesSection extends Widget
 {
+    public $title = 'Новости и статьи';
     public $bgType = 'to-right';
 
     public function init()
@@ -17,6 +18,7 @@ class ArticlesSection extends Widget
     {
         return $this->render('articlesSection', [
             'bgType' => $this->bgType,
+            'title' => $this->title,
         ]);
     }
 }

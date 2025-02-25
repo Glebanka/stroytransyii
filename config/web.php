@@ -58,6 +58,7 @@ $config = [
                 'vacancies'=> 'site/vacancies',
                 'objects'=> 'site/objects',
                 'articles'=> 'site/articles',
+                'article'=> 'site/article',
             ],
         ],
         

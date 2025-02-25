@@ -24,7 +24,7 @@ $this->title = 'Стройтрансметал';
         при строительстве современных зданий.
       </div>
     </div>
-    <button class="btn">Подробнее</button>
+    <button class="btn intro-section__btn">Подробнее</button>
   </div>
   <div class="intro-section__slider">
     <div class="swiper-wrapper">

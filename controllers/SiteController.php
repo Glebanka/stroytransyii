@@ -175,4 +175,13 @@ class SiteController extends Controller
     {
         return $this->render('articles');
     }
+    /**
+     * Displays article page.
+     *
+     * @return string
+     */
+    public function actionArticle()
+    {
+        return $this->render('article');
+    }
 }

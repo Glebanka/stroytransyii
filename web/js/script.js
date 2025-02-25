@@ -27,6 +27,7 @@ function init() {
   offerPage();
   constructionPartsSection();
   managersSection();
+  articlePage()
 }
 
 // переводит ремы в пиксели
@@ -227,6 +228,27 @@ function managersSection() {
         slidesPerView: "auto",
         speed: 700,
         spaceBetween: remToPx(1.6),
+      });
+    }
+  }
+
+  if (elem && isMobile) sliderInit()
+}
+
+
+function articlePage() {
+  const elem = document.querySelector(".article");
+  const sliderInit = () => {
+    const elem = document.querySelector(".article__slider");
+    if (elem) {
+      const slider = new Swiper(elem, {
+        slidesPerView: "auto",
+        speed: 700,
+        spaceBetween: remToPx(1.6),
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        }
       });
     }
   }
